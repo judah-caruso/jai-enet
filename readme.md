@@ -1,14 +1,17 @@
 # ENet
-[ENet](https://github.com/zpl-c/enet) for Jai. Note, this is not a port of ENet like [enet-jai](https://github.com/rytc/enet-jai).
+
+[ENet](https://github.com/zpl-c/enet) bindings for Jai. Note, this is not a port of ENet like [enet-jai](https://github.com/rytc/enet-jai).
 
 # Building
+
 ```sh
 git clone --recursive https://github.com/judah-caruso/jai-enet
-cd jai-enet && jai generate.jai - make-lib
+cd jai-enet && jai generate.jai
 ```
 
-To compile the library:
-```
+To compile the library (required to generate bindings):
+
+```sh
 jai generate.jai - make-lib
 
 # With debug information
